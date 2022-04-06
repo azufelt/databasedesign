@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Ashley Zufelt" />
+  <link type="normalize/css" rel="stylesheet" href="#" />
+  <link type="text/css" rel="stylesheet" href="css/main.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <script src="/js/script.js" defer></script>
+  <title>Ashley Zufelt Frontend CIT225</title>
+</head>
+
+<body>
+  <div class="notepad"></div>
+  <div class="gridbox">
+    <header>
+      <h1>Final Project</h1>
+      <h2>CIT 225 Database Design & Dev</h2>
+      <section>
+        <h2><a href="../index.html">Menu</a></h2>
+        <p>Final Project</p>
+        <p>March 29, 2022</p>
+      </section>
+    </header>
+    <main class="contentbox">
+      <aside>
+        <h1>Return & Report</h1>
+        <h2>Final Project Presentation</h2>
+        <p>
+          Return & Report was an idea that came to life by recognizing a real
+          need amongst my own, real-world, experiences. As I serve and
+          participate in local groups, boards and councils affiliated with The
+          Church of Jesus Christ of Latter-day Saints, I realized that our
+          group did not have a standard for project planning, tracking and
+          various other leadership responsibilities.
+        </p>
+        <p>
+          As I've spent the last few years being a big supporter of the new
+          Gospel Living (Circles) App, I thought it could use some new
+          integrations. So, Return & Report is a project management
+          application that is focused on integrating into the already existing
+          Circles and other Church authenticated sites.
+        </p>
+        <p>
+          Our test case assumes that a user has already created an account,
+          however the queries to create a user are still included, for
+          representational purposes.
+        </p>
+        <p>
+          As you go through the inter-active UI you'll see that it is focused
+          around a mobile application, however the screens have been widened
+          to also include the appropriate CRUD statements.
+        </p>
+        <h3>UI Index:</h3>
+        <p>
+          You'll start at the login page, and then you can simply follow the
+          form application through to:
+          <p>
+
+            <ul>
+              <li>
+                login ->
+              </li>
+              <li>
+                start planning a project ->
+              </li>
+              <li>
+                add
+                new project form ->
+              </li>
+              <li>
+                view project/ add tasks ->
+              </li>
+              <li>
+                create and assign
+                project tasks ->
+              </li>
+              <li>
+                view project and available tasks ...
+                <ul>
+                  <li>
+                    From there you
+                    can choose to edit the newly created task, or edit the parent
+                    project, or continue to add more tasks ->
+                  </li>
+                </ul>
+              </li>
+              <li>
+                If you click on the top
+                header "Return & Report" you'll get a view of all projects that this
+                user belongs to/ has access to ->
+              </li>
+              <li>
+                from there you can click the < nav arrow and be taken up one layer to where you can view all of the
+                  circle groups that the user is a part of. </li> </ul> <h3>Design Rationale:</h3>
+                  <p>
+                    The rationale for the design was based on the already exisiting UI
+                    elements, from within the production Circles App. Beyond that, I
+                    wanted to show that a single user can belong to multiple Circles
+                    Groups, and each group can have multiple project workspaces, and
+                    then within each project there can be several tasks. The tasks can
+                    be assigned to someone who becomes the task "owner". The tasks also integrate a status, which could
+                    be
+                    expounded upon in a production application, for now it is represented within the UI by a
+                    green/yellow/red
+                    circle. The status is a working table that is referenced when a user selects one of the circle
+                    status
+                    markers, then the task would use an
+                    <pre class="inline">UPDATE</pre> to add the foreign table id as a reference to the project task.
+                  </p>
+                  <br />
+
+      </aside>
+      <section class="task">
+        <h3>UI Prototype:</h3>
+        <ul>
+          <li><a href="https://xd.adobe.com/view/24d19d88-74bd-49a0-bd97-2f68f09521f4-7182/screen/17779ee6-749a-4e50-b617-9491edb5809c" target="_blank">Wire
+              Frames</a></li>
+        </ul>
+        
+
+      </section>
+    </main>
+    <section class="report">
+      <h1>Inclusions:</h1>
+
+      <div class="testcase">
+        <h2>Test Case:</h2>
+        <div class="imgcarouselbox w3-content w3-display-container">
+          <div class="testtext">
+            <h2>Wire Frame Walk Thru</h2>
+            <p>This link gives a fantastic view of the application, as the user walks through, step by step. You can click through as you follow along with the -> steps listed above.</p>
+            <p>Or, you can also view the images individually on these slides -></p>
+            
+            <button class=""><a href="https://xd.adobe.com/view/24d19d88-74bd-49a0-bd97-2f68f09521f4-7182/screen/17779ee6-749a-4e50-b617-9491edb5809c" target="_blank">Click Here to View </a></button>
+           
+          </div>
+          <div class="imgcarousel">
+            <img class="mySlides" src="images/return_report_pg1.png" style="width:100%">
+            <img class="mySlides" src="images/return_report_pg2.png" style="width:100%">
+            <img class="mySlides" src="images/return_report_pg3.png" style="width:100%">
+            <img class="mySlides" src="images/return_report_pg4.png" style="width:100%">
+            <img class="mySlides" src="images/return_report_pg5.png" style="width:100%">
+            <img class="mySlides" src="images/return_report_pg6.png" style="width:100%">
+            <img class="mySlides" src="images/return_report_pg7.png" style="width:100%">
+            <img class="mySlides" src="images/return_report_pg8.png" style="width:100%">
+            <img class="mySlides" src="images/return_report_pg9.png" style="width:100%">
+            <img class="mySlides" src="images/return_report_pg10.png" style="width:100%">
+            <img class="mySlides" src="images/return_report_pg11.png" style="width:100%">
+            <img class="mySlides" src="images/return_report_pg12.png" style="width:100%">
+
+            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+          </div>
+        </div>
+      </div>
+      <div class="erdblock">
+        <div>
+          <h2>ERD</h2>
+          <img src="images/circles-app-erd.png" alt="erd for database project">
+        </div>
+        
+      </div>
+      <div class="reflect">
+          <h1>Reflect:</h1>
+          <p>Over-all I'm extremely happy with where I got with the project. I of course have so much more to learn about how powerful databases are, but I'm off to a really good start, and have an excellent foundational understanding of what it takes to design and build a database. </p>
+          <p>Some pieces that I learned and will take with me was the ability to decrease how much data I store in a table, but then join it with another table to actually produce data results or authentication that is needed. This is also a piece I struggled with, because I WANTED to be able to store everything that I needed in a view in one table so I could esily get to all of the things. But that doesn't allow for scalability, good maintenance pracices, as well as can really limit and even further complicate how statistics get drawn from the tables. </p>
+          <p>This database design project may be done, but I intend to flesh this out further and take it to production, either with the integrated circles use, or for some other various platforms.</p>
+        </div>
+    </section>
+
+    <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
+      }
+
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {
+          slideIndex = 1
+        }
+        if (n < 1) {
+          slideIndex = x.length
+        }
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        x[slideIndex - 1].style.display = "block";
+      }
+    </script>
+
+  </div>
+
+  <footer>&copy;<span id="currentyear"></span> | Ashley Zufelt</footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script>
+    WebFont.load({
+      google: {
+        families: [
+          "Permanent Marker",
+          "Shadows Into Light Two",
+          "Montserrat",
+        ],
+      },
+    });
+  </script>
+</body>
+
+</html>
